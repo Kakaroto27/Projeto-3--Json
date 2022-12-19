@@ -1,0 +1,165 @@
+
+{
+    "Bebidas":[   
+            {
+            "id": 1,
+            "nome": "Budweiser",
+            "preço": 7.50,
+            "categoria": "Alcoolicas",
+            "status":true
+        },
+        {
+            "id": 2,
+            "nome": "Duplo Malte",
+            "preço": 6.00,
+            "categoria": "Alcoolicas",
+            "status":true
+        },
+        {
+            "id": 3,
+            "nome": "Brahma BRT",
+            "preço": 8.00,
+            "categoria": "Alcoolicas",
+            "status":true
+        },
+        {
+            "id": 4,
+            "nome": "Antartica Lata",
+            "preço": 6.00,
+            "categoria": "Alcoolicas",
+            "status":false
+        },
+        {
+            "id": 5,
+            "nome": "Cracudinha",
+            "preço": 3.50,
+            "categoria":"Alcoolicas",
+            "status":true
+        },
+        {
+            "id": 6,
+            "nome": "Coca-Cola",
+            "preço": 7.00,
+            "categoria": "Não-Alcoolicas",
+            "status": true
+
+        },
+        {
+            "id": 7,
+            "nome": "Pepsi",
+            "preço": 5.00,
+            "categoria": "Não-Alcoolicas",
+            "status":true
+        },
+        {
+            "id": 8,
+            "nome": "Dell Vale",
+            "preço": 15.00,
+            "categoria":"Não-Alcoolicas",
+            "status":true
+        },
+        {
+            "id": 9,
+            "nome": "Gatorate",
+            "preço": 8.00,
+            "categoria":"Não-Alcoolicas",
+            "status":true
+        },
+        {
+            "id": 10,
+            "nome": "Água",
+            "preço": 2.00,
+            "categoria":"Alcoolicas",
+            "status":true
+        }
+    ],
+    "Petiscos":[
+        {
+            "id":1,
+            "nome": "Batata Marechal",
+            "descrição": " Batata frita maluca com chedar, bacon e frango a passarinho",
+            "preço": 2.00,
+            "espera": "15 min",
+            "status":true
+        },
+        {
+            "id":2,
+            "nome": "Combo 3 Hamburguers",
+            "descrição": "Combo 3 Hamburguers simples, cada um composto por carne,queijo,bacon e ovo",
+            "espera": "8 min",
+            "preço": 13.00,
+            "status":false
+        },
+        {
+            "id":3,
+            "nome": "Cachorrao da Tia",
+            "descrição": "Cachorro quente, Linguiça ou Salsicha?",
+            "espera": "4 min, rapidinho",
+            "preço" : 7.00,
+            "status":true
+        },
+        {
+            "id":4,
+            "nome": "Vacilação",
+            "descrição": "Pão francês recheado de linguiça paio",
+            "espera": "5 min",
+            "preço":5.00,
+            "status":true
+        }
+    ],
+    "users": [
+        {
+          "name": "Gabriel Silva",
+          "email": "bielh2k@email.com",
+          "password": "Noob_Master-en00b",
+          "id": 1
+        },
+        {
+          "name": "Ingrid Souza",
+          "email": "ingsouza@email.com",
+          "password": "548gggd65",
+          "id": 2
+        },
+        {
+          "name": "Ramom Camisa6",
+          "email": "zero6@email.com",
+          "password": "ldo445632",
+          "id": 3
+        },
+        {
+            "name": "Mila Tavares",
+            "email": "Milatav@email.com",
+            "password": "ldo445632",
+            "id": 4
+        }
+      ],
+      "funcionarios": [
+        {
+            "id":1,
+            "nome": "Carlos",
+            "turno": "noite",
+            "cargo": "garçom",
+            "salario": "1800",
+            "imagem":"https://cptstatic.s3.amazonaws.com/imagens/enviadas/materias/materia11097/slide/19treinamento-garcom-cursos-cpt.jpg",
+            "categoria_id": 1
+        },
+        {
+            "id":2,
+            "nome": "Maria",
+            "turno": "noite",
+            "cargo": "bartender",
+            "salario": "2000",
+            "imagem":"https://www.hypeness.com.br/1/2019/03/bartenders-mulheres-no-bar-12.jpg",
+            "categoria_id": 2
+        },
+        {
+            "id":3,
+            "nome": "Pedro 9",
+            "turno": "noite",
+            "cargo": "garçonete",
+            "salario": "2500",
+            "imagem":"http://shopblob.blob.core.windows.net/1204-produtoimagem/zoom-ff-GARCONETE(0)(1).jpg",
+            "categoria_id": 3
+        }
+    ]
+}
