@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Projeto individual, Módulo 3 - Json Server | André Carlos S. da Silva
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O objetivo do terceiro projeto individual do programa Programadores Cariocas é criar uma fake API Rest em JSON Server.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Autor
+- [André Carlos S. da Silva]
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Bebidas](https://mod3-json.onrender.com/Bebidas)
+- [Petiscos]https://mod3-json.onrender.com/Petiscos)
+- [Funcionários](https://mod3-json.onrender.com/funcionarios)
+- [users](https://mod3-json.onrender.com/menu)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demonstração
+https://mod3-json.onrender.com
+Se quiser clonar esse repositório, você precisa fazer isso: 
+- 1 - Clone meu repositório
+- 2 - no terminal, faça "npm -i"
+- 3 - depois faça ng serve
+- E pronto. Happy Coding!
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Rotas Personalizadas
+Rotas personalizadas utilizadas para manipulação de informações
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+| metodo  | caminho       | exemplo                      |
+| :---------- | :--------- | :---------------------------------- |
+| `GET (see all)` | `/"nome do caminho"/	` | 	/Bebidas|
+| `GET` | `	/"nome do caminho"/get/:id	` | /Petiscos|
+| `POST` | `/"nome do caminho"/create		` | 	/users/"ele vai criar automaticamente uma id nova"|
+| `PUT` | `/"nome do caminho"/update/:id	` | /Bebidas/"mudar o que tem dentro da id de escolha"|
+| `DELETE` | `/"nome do caminho"/delete/:id` | /users/delete/"id que você quer deletar"|
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Nomes dos caminhos:
+- Funcionarios
+- users
+- Bebidas
+- Petiscos
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Referência
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ - [Digital Ocean](https://www.digitalocean.com/community/tutorials/json-server)
+ - [Dev.To](https://dev.to/youssefzidan/deploying-fake-back-end-server-database-using-json-server-github-and-heroku-1lm4#:~:text=%20Deploying%20Fake%20Back-End%20Server%20%26%20DataBase%20Using,3%20Creating%20the%20server%0ACreate%20account%20on...%20More%20)
+ - [Render](https://dashboard.render.com/)
+ - [NPM](https://www.npmjs.com/package/json-server)
