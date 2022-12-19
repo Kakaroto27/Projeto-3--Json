@@ -10,7 +10,7 @@ O objetivo do terceiro projeto individual do programa Programadores Cariocas é 
 ## Funcionalidades
 
 - [Bebidas](https://mod3-json.onrender.com/Bebidas)
-- [Petiscos]https://mod3-json.onrender.com/Petiscos)
+- [Petiscos](https://mod3-json.onrender.com/Petiscos)
 - [Funcionários](https://mod3-json.onrender.com/funcionarios)
 - [users](https://mod3-json.onrender.com/menu)
 
