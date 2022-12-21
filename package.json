@@ -8,8 +8,9 @@
     "start": "node server.js"
   },
 
-  "author": "kakaroto27",
+  "author": "bielkh",
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.16.3"
   }
+}
